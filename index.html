@@ -2,15 +2,60 @@
 <html>
     <head>
         <title>Mikey Vall</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class = "nav-logo">Mikey Vall</li>
+        </ul>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <body>
-        
+        <div id="about-me">
+            <div class ="about-me-text">
+                <h1>About Me</h1>
+                <p>Hello! I'm Mikey Vall, working to build up my skills as a web developer.
+                    I am currently working as a Business Analyst at a software company where
+                    I help maintain and improve the company's internal software. 
+                    I am also working on a few personal projects to improve my skills in web development and programming.
+                </p>
+            </div>
+            <div class="about-me-image">
+                <img src="images/mikey.jpg" alt="Mikey Vall">
+            </div>
+        </div>
+        <div class = "projects">
+            <ul>
+                <li class="project-title">Finished Projects</li>
+                <li><b>Portfolio Website</b> - A personal website to showcase my skills and projects. Technologies used: HTML, CSS, JavaScript.</li>
+                <li><b>Wedding Website</b> - A website created for my wedding. Technologies used: HTML, CSS, JavaScript.</li>
+                <li><b>Singular Projects</b> - Individual projects that don't fit into the other categories. Technologies used: HTML, CSS, JavaScript.</li>
+            </ul>
+            <ul>
+                <li class="project-title">Projects in Progress</li>
+                <li><b>RiotHub</b> - A web application for tracking and analyzing Riot Games data. Technologies used: React, Node.js, Express, MongoDB.</li>
+                <li><b>FinanceWebsite</b> - A financial management tool for personal budgeting and expense tracking. Technologies used: React, Node.js, Express, PostgreSQL.</li>
+            </ul>
+        </div>
+        <div class ="skills">
+            <h1>Skills</h1>
+            <p>Here are some of the skills I have acquired through my work and personal projects:</p>
+            <ul>
+                <li><b>HTML, CSS, JavaScript</b> - Proficient in front-end web development technologies.</li>
+                <li><b>Git</b> - Familiar with version control using Git and GitHub for collaborative development.</li>
+                <li><b>Visual Basic</b> - Basic understanding of Visual Basic programming language.</li>
+                <li><b>SQL</b> - Intermediate understanding of SQL for database management and querying.</li>
+                <li><b>Power Automate</b> - Experience with automating workflows using Power Automate.</li>
+                <li><b>Power BI</b> - Basic knowledge of data visualization and reporting using Power BI.</li>
+                <li><b>Bold Reports</b> - Experience with creating reports using Bold Reports.</li>
+                <li><b>Microsoft Excel</b> - Proficient in using Microsoft Excel for data analysis and reporting.</li>
+            </ul>
+            <button class = "show-all">Show All Skills</button>
+        </div>
     </body>
+    <script src="script.js"></script>
 </html>
