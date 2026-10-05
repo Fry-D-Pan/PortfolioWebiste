@@ -16,30 +16,57 @@
     </nav>
     <body>
         <div id="about-me">
+            <h1>About Me</h1>
             <div class ="about-me-text">
-                <h1>About Me</h1>
                 <p>Hello! I'm Mikey Vall, working to build up my skills as a web developer.
                     I am currently working as a Business Analyst at a software company where
                     I help maintain and improve the company's internal software. 
                     I am also working on a few personal projects to improve my skills in web development and programming.
+                    I got recently married in June and was very excited to start this new chapter of my life.
+                    One of my favorite things to do is to play a yard game called Kubb where I actually got engaged at the national Kubb championship.
                 </p>
             </div>
-            <div class="about-me-image">
-                <img src="images/mikey.jpg" alt="Mikey Vall">
+            <div class="about-me-images">
+                <img src="./attachments/FatherAndMeKubb.jpeg" alt="Kubb photo">
+                <img src="./attachments/WeddingPhoto.jpeg" alt="Wedding photo">
             </div>
         </div>
         <div class = "projects">
-            <ul>
-                <li class="project-title">Finished Projects</li>
-                <li><b>Portfolio Website</b> - A personal website to showcase my skills and projects. Technologies used: HTML, CSS, JavaScript.</li>
-                <li><b>Wedding Website</b> - A website created for my wedding. Technologies used: HTML, CSS, JavaScript.</li>
-                <li><b>Singular Projects</b> - Individual projects that don't fit into the other categories. Technologies used: HTML, CSS, JavaScript.</li>
-            </ul>
-            <ul>
-                <li class="project-title">Projects in Progress</li>
-                <li><b>RiotHub</b> - A web application for tracking and analyzing Riot Games data. Technologies used: React, Node.js, Express, MongoDB.</li>
-                <li><b>FinanceWebsite</b> - A financial management tool for personal budgeting and expense tracking. Technologies used: React, Node.js, Express, PostgreSQL.</li>
-            </ul>
+            <h1 class="project-title">Finished Projects</h1>
+            <div class="project-list">
+                <div class="project-item" onclick="window.open('https://github.com/Fry-D-Pan/PortfolioWebiste');" style="cursor: pointer;">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal website to showcase my skills, projects and a little about me.</p>
+                    <div class="tags">
+                        <span>HTML: <i>85%</i></span><span>CSS: <i>15%</i></span><span>JavaScript: <i>0%</i></span>
+                    </div>
+                </div>
+                <div class="project-item" onclick="window.open('https://github.com/Fry-D-Pan/WeddingWebsite');" style="cursor: pointer;">
+                    <h3>Wedding Website</h3>
+                    <p>A website for my wedding, providing information and details about the event.</p>
+                    <div class="tags">
+                        <span>HTML: <i>57.5%</i></span><span>CSS: <i>34.9%</i></span><span>JavaScript: <i>7%</i></span>
+                    </div>
+                </div>
+                <div class="project-item" onclick="window.open('https://github.com/Fry-D-Pan/Portfolio-Singular-Projects');" style="cursor: pointer;">
+                    <h3>Singular Projects</h3>
+                    <p>Small individual projects that I have worked on independently to improve my skills.</p>
+                    <div class="tags">
+                        <span>JavaScript: <i>100%</i></span>
+                    </div>
+                </div>
+            </div>
+            <h1 class="project-title">Projects in Progress</h1>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>RiotHub</h3>
+                    <p>A web application for tracking and analyzing Riot Games data. Technologies used: React, Node.js, Express, MongoDB.</p>
+                </div>
+                <div class="project-item">
+                    <h3>FinanceWebsite</h3>
+                    <p>A financial management tool for personal budgeting and expense tracking. Technologies used: React, Node.js, Express, PostgreSQL.</p>
+                </div>
+            </div>
         </div>
         <div class ="skills">
             <h1>Skills</h1>
