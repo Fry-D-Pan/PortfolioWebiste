@@ -58,13 +58,33 @@
             </div>
             <h1 class="project-title">Projects in Progress</h1>
             <div class="project-list">
-                <div class="project-item">
-                    <h3>RiotHub</h3>
-                    <p>A web application for tracking and analyzing Riot Games data. Technologies used: React, Node.js, Express, MongoDB.</p>
+                <div class="project-item" onclick="window.open('https://github.com/Fry-D-Pan/Blackjack-House-Edge');" style="cursor: pointer;">
+                    <h3>Blackjack House Edge calculator</h3>
+                    <p>Calculates the house edge for Blackjack based on various rules and strategies.</p>
+                    <div class = "progress">
+                        Progress:<progress value="80" max="100"></progress> 80%
+                    </div>
+                    <div class = "tags">
+                        <span>Python: <i>100%</i></span>
+                    </div>
                 </div>
-                <div class="project-item">
+                <div class="project-item-no-link">
+                    <h3>RiotHub</h3>
+                    <p>A web application for tracking and analyzing Riot Games data.</p>
+                    <div class = "progress">
+                        Progress:<progress value="5" max="100"></progress> 5%
+                    </div>
+                </div>
+                <div class="project-item-no-link">
                     <h3>FinanceWebsite</h3>
-                    <p>A financial management tool for personal budgeting and expense tracking. Technologies used: React, Node.js, Express, PostgreSQL.</p>
+                    <p>A financial management tool for personal budgeting and expense tracking.</p>
+                    <div class = "progress">
+                        Progress:<progress value="5" max="100"></progress> 5%
+                    </div>
+                    <div class = "tags">
+                        <span>HTML: <i>50%</i></span>
+                        <span>CSS: <i>50%</i></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -72,14 +92,42 @@
             <h1>Skills</h1>
             <p>Here are some of the skills I have acquired through my work and personal projects:</p>
             <ul>
-                <li><b>HTML, CSS, JavaScript</b> - Proficient in front-end web development technologies.</li>
-                <li><b>Git</b> - Familiar with version control using Git and GitHub for collaborative development.</li>
-                <li><b>Visual Basic</b> - Basic understanding of Visual Basic programming language.</li>
-                <li><b>SQL</b> - Intermediate understanding of SQL for database management and querying.</li>
-                <li><b>Power Automate</b> - Experience with automating workflows using Power Automate.</li>
-                <li><b>Power BI</b> - Basic knowledge of data visualization and reporting using Power BI.</li>
-                <li><b>Bold Reports</b> - Experience with creating reports using Bold Reports.</li>
-                <li><b>Microsoft Excel</b> - Proficient in using Microsoft Excel for data analysis and reporting.</li>
+                <li id = "skill-1" class ="active">
+                    <div class="skill-header">HTML & CSS</div>
+                    <p>Proficient in designing and organizing web layouts and styles</p>
+                </li>
+                <li id = "skill-2" class = "backup">
+                    <div class="skill-header">JavaScript</div>
+                    <p>Moderate understanding of JavaScript.</p>
+                </li>
+                <li id = "skill-3" class = "inactive">
+                    <div class="skill-header">Git</div>
+                    <p>Familiar with version control using Git and GitHub for collaborative development.</p>
+                </li>
+                <li id = "skill-4" class = "inactive">
+                    <div class="skill-header">Visual Basic</div>
+                    <p>Basic understanding of Visual Basic programming language.</p>
+                </li>
+                <li id = "skill-5" class = "inactive">
+                    <div class="skill-header">SQL</div>
+                    <p>Intermediate understanding of SQL for database management and querying.</p>
+                </li>
+                <li id = "skill-6" class = "inactive">
+                    <div class="skill-header">Power Automate</div>
+                    <p>Experience with automating workflows using Power Automate.</p>
+                </li>
+                <li id = "skill-7" class = "inactive">
+                    <div class="skill-header">Power BI</div>
+                    <p>Basic knowledge of data visualization and reporting using Power BI.</p>
+                </li>
+                <li id = "skill-8" class = "inactive">
+                    <div class="skill-header">Bold Reports</div>
+                    <p>Experience with creating reports using Bold Reports.</p>
+                </li>
+                <li id = "skill-9" class = "inactive">
+                    <div class="skill-header">Microsoft Excel</div>
+                    <p>Proficient in using Microsoft Excel for data analysis and reporting.</p>
+                </li>
             </ul>
             <button class = "show-all">Show All Skills</button>
         </div>
